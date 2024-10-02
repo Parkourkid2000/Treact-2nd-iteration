@@ -19,6 +19,17 @@
   color: rgb(100 21 255);
 }
 
+.section__title {
+  color: rgb(100 21 255);
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.section__header {
+  font-size: 3rem;
+  margin: 1.5rem 0;
+}
+
 ul {
   list-style: none;
 }
@@ -94,9 +105,21 @@ nav {
   width: 50%;
 }
 
-.landing__img--wrapper {
-    margin-right: 4rem;
+.landing__column--one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.landing__column--two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
 
+.landing__img--wrapper {
+  margin-right: 4rem;
 }
 
 .landing__img {
@@ -118,6 +141,7 @@ nav {
   border-radius: 9999px;
   padding-left: 2rem;
   font-weight: 500;
+  font-size: 1.1rem;
   border-width: 2px;
   color: white;
   border-color: rgb(160 174 192);
@@ -126,6 +150,8 @@ nav {
 .landing__input--btn {
   position: absolute;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
   right: 0;
   bottom: 0;
   top: 0;
@@ -148,7 +174,7 @@ nav {
 .customers__img {
   width: 100%;
   padding-right: 4rem;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .customers__text {
@@ -164,4 +190,217 @@ nav {
 
 .landing__description {
   margin: 2rem 0;
+}
+
+/*FEATURES*/
+
+.section__description {
+  font-size: 1.125rem;
+  width: 75%;
+}
+
+.test {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__column--container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature__box--container {
+  width: calc(100% / 3);
+}
+
+.feature__box {
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  margin: 0 1rem;
+  padding: 2rem 0.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.feature__img--wrapper {
+  flex-shrink: 0;
+  height: fit-content;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 1.25rem;
+  margin: 0 1rem;
+  border-color: rgb(226, 232, 240);
+  text-align: center;
+}
+
+.feature__img {
+  width: 100%;
+}
+
+.feature__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature__header {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+  letter-spacing: 0.025rem;
+}
+
+.feature__description {
+  padding-right: 3rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  line-height: 2;
+  color: rgb(124 139 161);
+}
+
+/*QUALITY WORK*/
+
+.quality__container {
+  width: 100%;
+  display: flex;
+  padding: 6rem 0;
+  margin: 0 2rem;
+}
+
+.quality__img--wrapper {
+  border: 1px solid gray;
+  margin-right: 2rem;
+}
+
+.quality__img {
+  width: 100%;
+}
+
+.learn__btn {
+  color: white;
+  width: 160px;
+  margin: 2rem 0;
+  font-size: 0.875rem;
+  border-radius: 1.25rem;
+  padding: 0.75rem 2.5rem;
+  background-color: rgb(100 21 255);
+}
+
+/* STEPS */
+
+.steps__container {
+  width: 100%;
+  margin: 6rem 0;
+  display: flex;
+}
+
+.steps__img--wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.steps__img {
+  display: flex;
+  width: 100%;
+}
+
+.steps__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 4rem;
+    margin-top: 3rem;
+
+}
+
+.steps__column--container {
+    
+}
+
+.steps {
+    display: flex;
+}
+
+.step__number {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(203 213 224);
+    display: flex;
+    
+    
+}
+
+.step__content {
+    margin-bottom: 1.5rem;
+    margin-left: 1.5rem;
+    
+}
+
+.step__header {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.step__description {
+    margin-top: .75rem;
+    max-width: 20rem;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 2;
+    color: rgb(113 128 150);
+
+}
+
+/* VALUES */
+
+.values__container {
+display: flex;
+width: 100%;
+}
+
+.values__info {
+display: flex;
+flex-direction: column;
+width: 50%;
+padding: 0 2rem;
+}
+
+.values__columns {
+display: flex;
+margin: 2rem 0;
+padding-right: 1rem;
+}
+
+.values__column {
+margin-right: 1rem;
+}
+
+.values__symbol {
+
+}
+
+.values__header {
+
+}
+
+.values__description {
+
+}
+
+.values__img--wrapper {
+width: 50%;
+}
+
+.values__img {
+    width: 100%;
+
 }
