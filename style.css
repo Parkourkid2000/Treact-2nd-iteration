@@ -100,6 +100,10 @@ nav {
   background-color: rgb(100 21 255);
 }
 
+.nav__menu {
+  display: none;
+}
+
 .nav__burger {
     display: none;
     font-weight: 700;
